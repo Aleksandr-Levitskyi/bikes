@@ -15,3 +15,5 @@
 @import url(../blocks/quote/__cover/quote__cover.css);
 @import url(../blocks/quote/__wrapper/quote__wrapper.css);
 @import url(../blocks/quote/__quote/quote__quote.css);
+@import url(../blocks/quote/__author/quote__author.css);
+@import url(../blocks/quote/__caption/quote__caption.css);
