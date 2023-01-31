@@ -13,3 +13,4 @@
 /* quote */
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/quote/__cover/quote__cover.css);
+@import url(../blocks/quote/__wrapper/quote__wrapper.css);
