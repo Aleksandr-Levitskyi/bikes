@@ -1,0 +1,15 @@
+.nav__link {
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+
+    color: #151515;
+
+    transition: .2;
+}
+
+.nav__link:hover {
+    opacity: .75;
+}
