@@ -21,3 +21,8 @@
 
 @import url(../blocks/switch/switch.css);
 @import url(../blocks/switch/__slider/switch__slider.css);
+
+/* theme-control */
+@import url(../blocks/form/form.css);
+
+@import url(../blocks/form/__input/form__input.css);
