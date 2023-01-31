@@ -1,0 +1,14 @@
+.welcome__caption {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.welcome__caption::after {
+    content: '';
+    display: inline-block;
+    margin: 0 0 5px 30px;
+    width: 132px;
+    height: 2px;
+    background: #d7d4d4;
+}

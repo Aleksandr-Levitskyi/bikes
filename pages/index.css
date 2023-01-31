@@ -19,6 +19,8 @@
 /* welcome */
 @import url(../blocks/welcome/welcome.css);
 @import url(../blocks/welcome/__cover/welcome__cover.css);
+@import url(../blocks/welcome/__button/welcome__button.css);
+@import url(../blocks/welcome/__caption/welcome__caption.css);
 
 /* placeholder */
 @import url(../blocks/placeholder/placeholder.css);
