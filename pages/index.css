@@ -12,6 +12,9 @@
 
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__bottom/footer__bottom.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
 
 /* container */
 @import url(../blocks/container/container.css);
