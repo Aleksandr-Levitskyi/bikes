@@ -9,3 +9,9 @@
 
 /* container */
 @import url(../blocks/container/container.css);
+
+/* theme-control */
+@import url(../blocks/theme-control/theme-control.css);
+
+@import url(../blocks/switch/switch.css);
+@import url(../blocks/switch/__slider/switch__slider.css);
