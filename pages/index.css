@@ -9,3 +9,9 @@
 
 /* container */
 @import url(../blocks/container/container.css);
+
+/* title */
+@import url(../blocks/title/title.css);
+
+/* subtitle */
+@import url(../blocks/subtitle/subtitle.css);
