@@ -19,3 +19,8 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
+
+.page--theme--dark {
+    color: #e5e5e5;
+    background: #333;
+}
