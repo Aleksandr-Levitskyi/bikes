@@ -15,3 +15,10 @@
 
 /* subtitle */
 @import url(../blocks/subtitle/subtitle.css);
+
+/* welcome */
+@import url(../blocks/welcome/welcome.css);
+@import url(../blocks/welcome/__cover/welcome__cover.css);
+
+/* placeholder */
+@import url(../blocks/placeholder/placeholder.css);

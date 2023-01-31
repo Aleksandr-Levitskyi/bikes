@@ -1,0 +1,17 @@
+.placeholder {
+    width: 440px;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+
+    position: sticky;
+    transform: translateX(-50%);
+    top: 347px;
+    margin: 0 0 79px;
+}
