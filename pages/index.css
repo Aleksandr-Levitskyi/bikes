@@ -7,6 +7,9 @@
 /* page */
 @import url(../blocks/page/page.css);
 
+/* tracks */
+@import url(../blocks/tracks/tracks.css);
+
 /* container */
 @import url(../blocks/container/container.css);
 
