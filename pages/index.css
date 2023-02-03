@@ -10,6 +10,9 @@
 /* tracks */
 @import url(../blocks/tracks/tracks.css);
 
+/* bikes */
+@import url(../blocks/bikes/bikes.css);
+
 /* container */
 @import url(../blocks/container/container.css);
 
