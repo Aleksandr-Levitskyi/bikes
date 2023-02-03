@@ -40,6 +40,13 @@
 /* subtitle */
 @import url(../blocks/subtitle/subtitle.css);
 
+/* traning */
+@import url(../blocks/traning/traning.css);
+@import url(../blocks/traning/__desc/traning__desc.css);
+@import url(../blocks/traning/__list/traning__list.css);
+@import url(../blocks/traning/__link/traning__link.css);
+@import url(../blocks/traning/__cover/traning__cover.css);
+
 /* welcome */
 @import url(../blocks/welcome/welcome.css);
 @import url(../blocks/welcome/__cover/welcome__cover.css);
