@@ -1,0 +1,13 @@
+.quote__quote {
+    max-width: 470px;
+    min-height: 132px;
+
+    margin: 0;
+    padding: 0;
+
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.29;
+
+    letter-spacing: -0.5px;
+}
