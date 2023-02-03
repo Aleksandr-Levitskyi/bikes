@@ -7,6 +7,15 @@
 /* page */
 @import url(../blocks/page/page.css);
 
+/* footer */
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__top/footer__top.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__bottom/footer__bottom.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+
 /* tracks */
 @import url(../blocks/tracks/tracks.css);
 
@@ -15,6 +24,19 @@
 
 /* container */
 @import url(../blocks/container/container.css);
+
+/* theme-control */
+@import url(../blocks/theme-control/theme-control.css);
+
+@import url(../blocks/switch/switch.css);
+@import url(../blocks/switch/__slider/switch__slider.css);
+
+/* form */
+@import url(../blocks/form/form.css);
+
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__button/form__button.css);
+
 
 /* quote */
 @import url(../blocks/quote/quote.css);
