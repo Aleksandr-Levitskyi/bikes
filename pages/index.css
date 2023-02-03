@@ -19,3 +19,18 @@
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__list/nav__list.css);
+
+/* title */
+@import url(../blocks/title/title.css);
+
+/* subtitle */
+@import url(../blocks/subtitle/subtitle.css);
+
+/* welcome */
+@import url(../blocks/welcome/welcome.css);
+@import url(../blocks/welcome/__cover/welcome__cover.css);
+@import url(../blocks/welcome/__button/welcome__button.css);
+@import url(../blocks/welcome/__caption/welcome__caption.css);
+
+/* placeholder */
+@import url(../blocks/placeholder/placeholder.css);

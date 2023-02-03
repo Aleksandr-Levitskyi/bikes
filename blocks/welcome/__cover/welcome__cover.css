@@ -1,0 +1,7 @@
+.welcome__cover {
+    width: 610px;
+    height: 836px;
+
+    background-image: url(../../../images/welcome-bc-large.jpg);
+    background-position: center;
+}

@@ -1,0 +1,22 @@
+.welcome__button {
+    width: 180px;
+    min-height: 50px;
+
+    margin: 0 0 167px;
+    padding: 0;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 4px;
+    background: #24B47E;
+
+    cursor: pointer;
+}
