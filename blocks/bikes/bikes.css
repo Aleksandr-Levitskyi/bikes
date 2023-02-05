@@ -1,17 +1,19 @@
-.bikes__slider {
+.bikes {
     position: relative;
+}
 
+.bikes__slider {
     margin: 120px auto 0;
 }
 
 .bikes__classes {
-    position: absolute;
+    /* position: absolute;
 
-    top: -150px;
+    top: 25px;
     right: 0;
 
     display: flex;
-    gap: 40px;
+    gap: 40px; */
 }
 
 .bikes__class {

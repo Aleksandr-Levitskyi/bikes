@@ -16,11 +16,11 @@
     </header>
     <main class="content">
         <section class="container tracks">
-            <div class="swiper mySwiper tracks__slider">
+            <div class="swiper tracks__slider">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide track">
-                        <h2 class="title">
+                        <h2 class="title title--type--tracks">
                             Шоссе
                         </h2>
                         <p class="subtitle">
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="swiper-slide track">
-                        <h2 class="title">
+                        <h2 class="title title--type--tracks">
                             Грэвел
                         </h2>
                         <p class="subtitle">
@@ -42,11 +42,12 @@
                             более широкие покрышки, всё
                             для того чтобы проехать по лёгкому бездорожью.
                         </p>
-                        <img src="images/gravel.jpg" alt="Гравий" class="track__photo"><img src="images/gravel-hights.svg" alt="Высоты" class="tracks__hights">
+                        <img src="images/gravel.jpg" alt="Гравий" class="track__photo"><img
+                            src="images/gravel-hights.svg" alt="Высоты" class="tracks__hights">
                     </div>
 
                     <div class="swiper-slide track">
-                        <h2 class="title">
+                        <h2 class="title title--type--tracks">
                             ТТ
                         </h2>
                         <p class="subtitle">
@@ -54,7 +55,8 @@
                             равнинному асфальту, велик
                             очень быстрые и аэродинамичный.
                         </p>
-                        <img src="images/triathlon.jpg" alt="Триатлон" class="track__photo"><img src="images/tiathlon-hights.svg" alt="Высоты" class="tracks__hights">
+                        <img src="images/triathlon.jpg" alt="Триатлон" class="track__photo"><img
+                            src="images/tiathlon-hights.svg" alt="Высоты" class="tracks__hights">
                     </div>
 
                 </div>
@@ -65,42 +67,83 @@
         </section>
         <section class="container bikes">
             <h2 class="title">Велосипеды</h2>
-            <div class="bikes__slider">
-                <div class="bikes__classes">
-                    <p class="bikes__class bikes__accent">
-                        Шоссе
-                    </p>
-                    <p class="bikes__class">
-                        Грэвел
-                    </p>
-                    <p class="bikes__class">
-                        ТТ
-                    </p>
-                </div>
-                <div class="bikes__slide">
-                    <div class="bikes__item">
-                        <figure class="bikes__elem">
-                            <img src="images/highway-bike-1.jpg" class="bikes__photo" alt="Cervelo Caledonia-5">
-                            <figcaption class="bikes__name ">
-                                Cervelo Caledonia-5
-                            </figcaption>
-                        </figure>
-                        <figure class="bikes__elem">
-                            <img src="images/highway-bike-2.jpg" alt="Cannondale Systemsix Himod" class="bikes__photo">
-                            <figcaption class="bikes__name">
-                                Cannondale Systemsix Himod
-                            </figcaption>
-                        </figure>
-                        <figure class="bikes__elem">
-                            <img src="images/highway-bike-3.jpg" alt="Trek Domane SL-7" class="bikes__photo">
-                            <figcaption class="bikes__name">
-                                Trek Domane SL-7
-                            </figcaption>
-                        </figure>
+
+            <div class="swiper bikes__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide bikes__slide" data-name="Шоссе">
+                        <div class="bikes__item">
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-1.jpg" class="bikes__photo" alt="Cervelo Caledonia-5">
+                                <figcaption class="bikes__name ">
+                                    Cervelo Caledonia-5
+                                </figcaption>
+                            </figure>
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-2.jpg" alt="Cannondale Systemsix Himod"
+                                    class="bikes__photo">
+                                <figcaption class="bikes__name">
+                                    Cannondale Systemsix Himod
+                                </figcaption>
+                            </figure>
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-3.jpg" alt="Trek Domane SL-7" class="bikes__photo">
+                                <figcaption class="bikes__name">
+                                    Trek Domane SL-7
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bikes__slide" data-name="Грэвел">
+                        <div class="bikes__item">
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-1.jpg" class="bikes__photo" alt="Cervelo Caledonia-5">
+                                <figcaption class="bikes__name ">
+                                    Cervelo Caledonia-5
+                                </figcaption>
+                            </figure>
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-2.jpg" alt="Cannondale Systemsix Himod"
+                                    class="bikes__photo">
+                                <figcaption class="bikes__name">
+                                    Cannondale Systemsix Himod
+                                </figcaption>
+                            </figure>
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-3.jpg" alt="Trek Domane SL-7" class="bikes__photo">
+                                <figcaption class="bikes__name">
+                                    Trek Domane SL-7
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bikes__slide" data-name="ТТ">
+                        <div class="bikes__item">
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-1.jpg" class="bikes__photo" alt="Cervelo Caledonia-5">
+                                <figcaption class="bikes__name ">
+                                    Cervelo Caledonia-5
+                                </figcaption>
+                            </figure>
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-2.jpg" alt="Cannondale Systemsix Himod"
+                                    class="bikes__photo">
+                                <figcaption class="bikes__name">
+                                    Cannondale Systemsix Himod
+                                </figcaption>
+                            </figure>
+                            <figure class="bikes__elem">
+                                <img src="images/highway-bike-3.jpg" alt="Trek Domane SL-7" class="bikes__photo">
+                                <figcaption class="bikes__name">
+                                    Trek Domane SL-7
+                                </figcaption>
+                            </figure>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="swiper-pagination bikes__classes">
 
+                </div>
+            </div>
         </section>
     </main>
 
@@ -109,3 +152,15 @@
 </body>
 
 </html>
+
+
+
+                    <!-- <span class="bikes__class bikes__accent">
+                                            Шоссе
+                                        </span>
+                                        <span class="bikes__class">
+                                            Грэвел
+                                        </span>
+                                        <span class="bikes__class">
+                                            ТТ
+                                        </span> -->
