@@ -13,7 +13,6 @@ var tracksSwiper = new Swiper(".tracks__slider", {
 var bikesSwiper = new Swiper(".bikes__slider", {
     loop: true,
     slidesPerView: "auto",
-    spaceBetween: 30,
 
     
     pagination: {
